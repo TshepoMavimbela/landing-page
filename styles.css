@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Manrope', sans-serif;
+    background-image: linear-gradient(to right top, #1f0537, #7c0146, #c43d2f, #d89300, #a8eb12);
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding: 0 40px;
+
+}
+
+header .logo {
+    font-weight: 800;
+
+}
+
+header .menu ul {
+    display: flex;
+}
+header .menu ul li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header .menu li a {
+    font-size: 0.89rem;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.menu-buton {
+    background: rgba(255, 255, 205, .5);
+    padding: 8px 12px; 
+    border-radius: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px; */
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+#home {
+    height: calc(100vh - 90px); 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .information {
+    width: 50%;
+
+}
+
+
+#home .information h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+#home .information h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 2rem;
+    letter-spacing: 1.5px;
+}
+
+
+#home .information .call-actions{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+
+.call-actions .action-button {
+    background: rgba(255, 255, 205, .5);
+    padding: 20px 20px; 
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+ }
+
+.call-actions .action-phantom-button {
+    padding: 20px 20px; 
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+ }
+
+ .call-actions .action-button {
+    background: white;
+    color: #1f0537;
+    margin-right: 25px;
+}
+ .call-actions .action-phantom-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#home .pictures {
+    width: 50%;
+    position: relative;
+    height: 400px;
+ }
+#home .pictures .girl {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+    transform: translate3d(0,-200px, 50px );
+ }
+#home .pictures .couple {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    z-index: 2;
+    transform: translate3d(250px, 100px, 0 );
+ }
+
+ .shape1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 1px dashed whitesmoke;
+ }
+
+ .shape2 {
+    width: 400px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 50%;
+ }
+ .shape3 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    box-shadow: #1f0537;
+    border-radius: 50%;
+    transform: translate3d(400px, -300px, 0 );
+ }
